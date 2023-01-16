@@ -95,7 +95,7 @@ public class EpubBook extends Book {
             tocPoints.put(point,label);
         }
     }
-
+//s
     @Override
     public Map<String,String> getToc() {
         return Collections.unmodifiableMap(tocPoints);
